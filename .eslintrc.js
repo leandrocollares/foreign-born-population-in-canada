@@ -6,14 +6,14 @@ module.exports = {
   },
   parserOptions: {
     ecmaVersion: 12,
-    sourceType: "module",
+    sourceType: 'module',
   },
-  plugins: ["svelte3"],
-  extends: ["eslint:recommended"],
+  plugins: ['svelte3'],
+  extends: ['eslint:recommended'],
   overrides: [
     {
-      files: ["**/*.svelte"],
-      processor: "svelte3/svelte3",
+      files: ['**/*.svelte'],
+      processor: 'svelte3/svelte3',
     },
   ],
 };
