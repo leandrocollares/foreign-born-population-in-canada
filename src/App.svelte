@@ -54,5 +54,6 @@
     align-items: center;
     height: 100%;
     width: 100%;
+    user-select: none;
   }
 </style>
